@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Título</h1>
+    </header>
+    <main>
+        <section>
+            <h1>título</h1>
+            <h2>subtítulo</h2>
+            <p>párrafo</p>
+        </section>
+       
+        <section>
+        <form>
+            <input
+                type="text" 
+                name="nombre" 
+                placeholder="Ingesa tu nombre" 
+                maxlength="10"
+                minlength="2"
+            />
+            <input
+                type="text" 
+                name="apellido" 
+                placeholder="Ingesa tu apellido" 
+                maxlength="10"
+                minlength="2" 
+            />
+            <input 
+                type="number" 
+                name="edad" 
+                placeholder="Ingesa tu edad" 
+                maxlength="200"
+                minlength="18"
+            /> 
+            <input 
+                type="number" 
+                name="rut" 
+                placeholder="Ingesa tu rut" 
+                maxlength="100.000.000"
+                minlength="1.000.000"  
+            />
+            <label>
+                ¿Aceptas entregar tus datos a DEV.F? 
+                <input
+                type="checkbox"
+                name="condiciones"
+
+                />
+            </label>
+            <button
+                type="submit"> 
+                Enviar información 
+            </button>
+        </form>
+       </section>
+    </main>
+</body>
+</html>
